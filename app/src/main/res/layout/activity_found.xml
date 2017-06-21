@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#3f51"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:background="@color/colorPrimary"
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="takePhoto"
+        android:text="Take Photo" />
+    <EditText
+        android:hint="من فضلك ادخل رقم المحضر واي معلومات اضافيه"
+        android:id="@+id/extrInfo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/submitFound"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Report" />
+
+
+</LinearLayout>
